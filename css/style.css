@@ -48,6 +48,9 @@ header {
 .phoneNumber {
   flex-grow: 1;
   flex-basis: 0;
+  font-size: 24px;
+  cursor: pointer;
+  line-height: 29px;
   text-align: right;
 }
 
@@ -160,20 +163,95 @@ header {
   width: 240px;
   border-radius: 30px;
   background-color: gray;
-  
 }
 
-.flexParentC h3{
+.flexParentC h3 {
   font-weight: 700;
   line-height: 20px;
   font-size: 20px;
   margin-top: 20px;
 }
 
-.flexParentC p{
+.flexParentC p {
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
   margin-top: 10px;
 }
 /* Color section end */
+
+/* foooter section start */
+.footerInner {
+  display: flex;
+  margin-top: 150px;
+  font-family: "Inter", serif;
+  background-color: #574b63;
+}
+.contactsForm {
+  width: 100%;
+  padding: 140px 93px;
+  text-align: center;
+}
+
+form h2 {
+  font-size: 32px;
+  color: white;
+  line-height: 39px;
+  font-weight: 700;
+  padding: 0 0 60px;
+  text-align: left;
+}
+.contactsForm p {
+  opacity: 0.5;
+  text-align: center;
+  margin: 30px;
+  font-size: 13px;
+  color: white;
+}
+.inputs {
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  background-color: #574b63;
+  border: none;
+  color: white;
+  display: block;
+  border-bottom: 1px solid #f5f5f5;
+}
+input:focus {
+  outline: none;
+}
+.subtn {
+  border-radius: 30px;
+  width: 240px;
+  height: 50px;
+  color: #490e84;
+  background-color: white;
+  font-weight: 700;
+}
+input::placeholder {
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.mainContainerF {
+  background-color: black;
+}
+
+.footerLink{
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.footerContent {
+  color: #717171;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+/* foooter section end */
