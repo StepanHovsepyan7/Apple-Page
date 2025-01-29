@@ -73,6 +73,10 @@ header {
   font-size: 40px;
 }
 
+.fa-bars {
+  display: none;
+}
+
 /* nav end */
 
 .chooseBtn {
@@ -155,14 +159,9 @@ header {
   display: flex;
   align-items: center;
   text-align: center;
+  flex-wrap: wrap;
   justify-content: space-between;
   font-family: "Inter", serif;
-}
-.grayDiv {
-  height: 320px;
-  width: 240px;
-  border-radius: 30px;
-  background-color: gray;
 }
 
 .flexParentC h3 {
@@ -241,7 +240,7 @@ input::placeholder {
   background-color: black;
 }
 
-.footerLink{
+.footerLink {
   flex-basis: 0;
   flex-grow: 1;
 }

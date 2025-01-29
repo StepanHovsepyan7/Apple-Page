@@ -1,0 +1,124 @@
+@media (max-width: 1200px) {
+  .contImg {
+    max-width: 100%;
+  }
+
+  .footerInner {
+    display: block !important;
+    transition: 0.3s !important;
+  }
+
+  .contactsForm {
+    width: auto !important;
+  }
+
+  form h2 {
+    text-align: center !important;
+  }
+
+  .footerInner img {
+    width: 100%;
+    object-position: center !important;
+    object-fit: cover !important;
+  }
+  .contactSection {
+    background-color: #574b63;
+  }
+}
+
+@media (max-width: 1100px) {
+  .grayDiv {
+    width: 50% !important;
+    margin-bottom: 30px !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .newsIphoneImg {
+    display: none;
+  }
+
+  .newsContent p {
+    max-width: 100% !important;
+  }
+
+  .footerContent {
+    text-align: center !important;
+  }
+  .container a {
+    font-size: 24px !important;
+  }
+}
+
+@media (max-width: 940px) {
+  .fa-bars {
+    display: inline-block !important;
+    order: 1 !important;
+  }
+
+  .menuA{
+    position: relative;
+  }
+  .phoneNumber {
+    order: 2 !important;
+    flex-grow: 20 !important;
+    text-align: center !important;
+  }
+
+  .menu-item {
+    padding-right: 0px !important;
+  }
+
+  .logo {
+    order: 3 !important; /* Moves Apple logo to the right */
+  }
+
+  .menu-link {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .headOfsec {
+    padding: 50px 0 30px !important;
+  }
+  .newsParent {
+    padding: 50px 0 100px !important;
+  }
+  .footerContent {
+    flex-direction: column !important;
+    padding: 20px 0 !important;
+    gap: 10px;
+  }
+  .container a {
+    font-size: 24px !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .title {
+    font-size: 40px !important;
+    line-height: 42px !important;
+  }
+
+  .chooseBtn {
+    font-size: 22px !important;
+    line-height: 22px !important;
+    padding: 16px 90px !important;
+  }
+  .newsText :nth-child(4) {
+    font-size: 16px !important;
+    line-height: 23px !important;
+  }
+
+  .grayDiv {
+    width: 100% !important;
+  }
+
+  .contactsForm {
+    padding: 140px 0px !important;
+  }
+  .grayDiv img {
+    width: 100% !important;
+  }
+}
