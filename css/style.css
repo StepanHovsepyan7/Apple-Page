@@ -69,6 +69,7 @@ header {
 }
 
 .fa-apple {
+  cursor: pointer;
   font-size: 40px;
 }
 
@@ -80,7 +81,7 @@ header {
 
 .chooseBtn {
   border-radius: 30px;
-  border: none;
+  border: 1px solid transparent;
   color: white;
   font-size: 24px;
   font-weight: 700;
@@ -89,6 +90,12 @@ header {
   padding: 22px 117px 19px;
   display: inline-block;
   margin-top: 25px;
+  transition: 0.3s;
+}
+.chooseBtn:hover {
+  background-color: transparent;
+  color: #490e84;
+  border: 1px solid #490e84;
 }
 .title {
   color: #490e84;
@@ -143,6 +150,10 @@ header {
 /* news section  end*/
 
 /* Color section */
+
+.grayDiv {
+  cursor: pointer;
+}
 
 .title3 {
   margin: 0 0 50px;
@@ -221,11 +232,18 @@ input:focus {
 }
 .subtn {
   border-radius: 30px;
+  border: none;
   width: 240px;
   height: 50px;
+  transition: 0.3s;
   color: #490e84;
   background-color: white;
   font-weight: 700;
+}
+.subtn:hover {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
 }
 input::placeholder {
   font-size: 14px;
@@ -253,3 +271,18 @@ input::placeholder {
 }
 
 /* foooter section end */
+
+::-webkit-scrollbar {
+  width: 13px;
+  border: none;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+  border: none;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #574b63;
+}
