@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/fontawesome.min.css" />
     <link rel="stylesheet" href="css/media.css" />
@@ -19,13 +20,13 @@
             </a>
             <ul class="menu">
               <li class="menu-item">
-                <a class="menu-link" href="#">Что нового</a>
+                <a class="menu-link menu-links" href="#newPhone">Что нового</a>
               </li>
               <li class="menu-item">
-                <a class="menu-link" href="#">Цвет</a>
+                <a class="menu-link menu-links" href="#chooseColor">Цвет</a>
               </li>
               <li class="menu-item">
-                <a class="menu-link" href="#">Заказать</a>
+                <a class="menu-link menu-links" href="#order">Заказать</a>
               </li>
             </ul>
 
@@ -48,8 +49,8 @@
         </div>
       </section>
 
-      <section>
-        <div class="newsParent">
+      <section >
+        <div class="newsParent" id="newPhone">
           <div class="container">
             <h2 class="title2">ЧТО НОВОГО</h2>
             <div class="newsContent">
@@ -87,7 +88,7 @@
         </div>
       </section>
 
-      <section>
+      <section id="chooseColor" data-aos="fade-down"  data-aos-duration="1000">
         <div class="container">
           <h2 class="title3">ВЫБЕРИ СВОЙ ЦВЕТ</h2>
 
@@ -121,7 +122,7 @@
     </main>
 
     <footer>
-      <section class="contactSection">
+      <section class="contactSection" id="order" >
         <div class="container">
           <div class="footerInner">
             <form class="contactsForm" action="#">
@@ -152,6 +153,7 @@
       </section>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

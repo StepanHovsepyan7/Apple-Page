@@ -32,7 +32,6 @@ header {
   margin: 0 auto;
   padding: 0 15px;
 }
-
 .container nav {
   display: flex;
   justify-content: space-between;

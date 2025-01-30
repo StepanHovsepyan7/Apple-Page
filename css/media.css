@@ -51,12 +51,19 @@
 }
 
 @media (max-width: 940px) {
+
   .fa-bars {
     display: inline-block !important;
     order: 1 !important;
+    z-index: 50;
+    position: relative;
   }
 
-  .menuA{
+  .fa-x {
+    z-index: 50;
+    position: relative;
+  }
+  .menuA {
     position: relative;
   }
   .phoneNumber {
@@ -66,15 +73,41 @@
   }
 
   .menu-item {
-    padding-right: 0px !important;
+    padding: 50px 0;
+    padding-right: 0 !important;
   }
-
   .logo {
-    order: 3 !important; /* Moves Apple logo to the right */
+    order: 3 !important;
+    position: relative;
+    z-index: 50;
   }
 
-  .menu-link {
-    display: none;
+  .phoneNumber {
+    position: relative;
+    z-index: 50;
+  }
+
+  .menu {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #0a0a0a;
+    transform: translateY(-100%);
+    transition: 0.3s ease;
+  }
+
+  .container  .menu-links{
+    font-size: 56px !important;
+  }
+
+  .menuOpen .menu {
+    transform: translateY(0);
   }
 }
 
